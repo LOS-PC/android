@@ -8,6 +8,7 @@
 
   <!-- Its dependencies: forks with LOS-PC changes -->
   <project path="device/virt/virt-common" name="LOS-PC/android_device_virt_virt-common" />
+  <project path="external/mesa" name="LOS-PC/android_external_mesa" />
   <project path="external/minigbm-upstream" name="LOS-PC/android_external_minigbm-upstream" />
 
   <!-- Its dependencies from LineageOS -->
@@ -15,7 +16,6 @@
   <project path="external/drm_hwcomposer-upstream" name="LineageOS/android_external_drm_hwcomposer-upstream" />
   <project path="external/libdisplay-info-upstream" name="LineageOS/android_external_libdisplay-info-upstream" />
   <project path="external/linux-firmware-mainline" name="LineageOS/android_external_linux-firmware-mainline" />
-  <project path="external/mesa" name="LineageOS/android_external_mesa" />
   <project path="hardware/mainline/common" name="LineageOS/android_hardware_mainline_common" />
   <project path="kernel/mainline/configs" name="LineageOS/android_kernel_mainline_configs" />
   <project path="prebuilts/bootmgr" name="LineageOS/android_prebuilts_bootmgr" />
