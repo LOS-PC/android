@@ -36,7 +36,7 @@
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="LOS-PC/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -595,7 +595,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk,sysui-studio" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="LOS-PC/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -640,7 +640,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk,sysui-studio" />
+  <project path="hardware/interfaces" name="LOS-PC/android_hardware_interfaces" groups="pdk,sysui-studio" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" remote="aosp" />
@@ -893,7 +893,7 @@
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
   <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="LOS-PC/android_system_core" groups="pdk" />
   <project path="system/cros-codecs" name="platform/system/cros-codecs" groups="pdk" remote="aosp" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
@@ -1028,4 +1028,5 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/pc.xml" />
 </manifest>
