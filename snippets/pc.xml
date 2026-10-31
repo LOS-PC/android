@@ -13,6 +13,8 @@
 
   <!-- Its dependencies from LineageOS -->
   <project path="device/mainline/common" name="LineageOS/android_device_mainline_common" />
+  <project path="external/alsa-lib" name="LineageOS/android_external_alsa-lib" />
+  <project path="external/alsa-ucm-conf" name="LineageOS/android_external_alsa-ucm-conf" />
   <project path="external/drm_hwcomposer-upstream" name="LineageOS/android_external_drm_hwcomposer-upstream" />
   <project path="external/libdisplay-info-upstream" name="LineageOS/android_external_libdisplay-info-upstream" />
   <project path="external/linux-firmware-mainline" name="LineageOS/android_external_linux-firmware-mainline" />
@@ -20,4 +22,5 @@
   <project path="kernel/mainline/configs" name="LineageOS/android_kernel_mainline_configs" />
   <project path="prebuilts/bootmgr" name="LineageOS/android_prebuilts_bootmgr" />
   <project path="prebuilts/mesa-build-dep" name="LineageOS/android_prebuilts_mesa-build-dep" />
+  <project path="vendor/mainline" name="LineageOS/android_vendor_mainline" />
 </manifest>
