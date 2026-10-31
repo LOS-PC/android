@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="LOS-PC/android" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
@@ -27,7 +27,7 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/generic-ims" name="LineageOS/android_hardware_lineage_generic-ims" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/interfaces" name="LOS-PC/android_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
